@@ -1,0 +1,11 @@
+{
+  "name": "Bootcamp Docker",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "version": "latest",
+      "enableNonRootDocker": true
+    }
+  },
+  "forwardPorts": [3000, 8080]
+}
