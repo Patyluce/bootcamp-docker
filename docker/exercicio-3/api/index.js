@@ -13,7 +13,7 @@ const db = new Pool({
 });
 
 app.get('/', (req, res) => {
-    res.send('API - Ambiente de Desenvolvimento e Produção! agora testando so em prod pela 2° vez)');
+    res.send('API - Ambiente de Desenvolvimento e Produção!');
 });
 
 app.get('/dados', async (req, res) => {
